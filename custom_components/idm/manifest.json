@@ -1,0 +1,20 @@
+{
+    "domain": "idm",
+    "name": "IDM Integration",
+    "codeowners": [
+        "@ManuelManhart",
+        "@TomBeyer"
+    ],
+    "config_flow": true,
+    "dependencies": [
+        "recorder"
+    ],
+    "documentation": "https://github.com/manuelmanhart/homeassistant-idm-integration",
+    "iot_class": "calculated",
+    "issue_tracker": "https://github.com/manuelmanhart/homeassistant-idm-integration/issues",
+    "requirements": [
+        "lxml",
+        "requests"
+    ],
+    "version": "0.0.1"
+}
